@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		img{
+			width: 100px;
+			position: absolute;
+			display: none;
+			
+		}
+	</style>
+</head>
+<body>
+	<div style="background-image: url(game.png); height: 1000px; background-size: 100% 100%">
+		
+		<div class="row">
+			<button class="ff" style="display: block; margin-left: 19%">Увеличить горох</button>
+			<button class="ff" style="display: block; margin-left: 19%">Увеличить цветы</button>
+		</div>
+
+		<img class="img1 tt" src="sunflower.png"  style=" margin-left: 31%; margin-top: 18%;">
+		<img class="img2 tt" src="peashooter.png"  style=" margin-left: 31%; margin-top: 27%;">
+		<img class="img3 tt" src="sunflower.png"  style=" margin-left: 31%; margin-top: 35%;">
+		<img class="img4 tt" src="peashooter.png"  style=" margin-left: 31%; margin-top: 44%;">
+		<img class="img5 tt" src="sunflower.png"  style=" margin-left: 31%; margin-top: 53%;">
+		<button class="flower but1" style="color: red; font-weight: bold; position: absolute; margin-left: 31%; margin-top: 22%; ">PLANT</button>	
+		<button class="flower but2" style="color: red; font-weight: bold; position: absolute; margin-left: 31%; margin-top: 31%; ">PLANT</button>
+		<button class="flower but3" style="color: red; font-weight: bold; position: absolute; margin-left: 31%; margin-top: 39%; ">PLANT</button>
+		<button class="flower but4"  style="color: red; font-weight: bold; position: absolute;  margin-left: 31%; margin-top: 48%; ">PLANT</button>
+		<button class="flower but5" style="color: red; font-weight: bold; position: absolute; margin-left: 31%; margin-top: 57%; ">PLANT</button>
+
+		<img class="img6 tt" src="peashooter.png"  style=" margin-left: 37%; margin-top: 18%; ">
+		<img class="img7 tt" src="sunflower.png"  style=" margin-left: 37%; margin-top: 27%; ">
+		<img class="img8 tt" src="peashooter.png"  style=" margin-left: 37%; margin-top: 35%; ">
+		<img class="img9 tt" src="sunflower.png"  style=" margin-left: 37%; margin-top: 44%; ">
+		<img class="img10 tt" src="peashooter.png"  style=" margin-left: 37%; margin-top: 53%; ">
+		<button class="flower but6" style="color: red; font-weight: bold; position: absolute; margin-left: 37%; margin-top: 22%; ">PLANT</button>	
+		<button class="flower but7" style="color: red; font-weight: bold; position: absolute; margin-left: 37%; margin-top: 31%; ">PLANT</button>
+		<button class="flower but8" style="color: red; font-weight: bold; position: absolute; margin-left: 37%; margin-top: 39%; ">PLANT</button>
+		<button class="flower but9" style="color: red; font-weight: bold; position: absolute;  margin-left: 37%; margin-top: 48%; ">PLANT</button>
+		<button class="flower but20" style="color: red; font-weight: bold; position: absolute; margin-left: 37%; margin-top: 57%; ">PLANT</button>
+
+
+		
+	</div>
+
+<script>
+	let flower = document.querySelectorAll('.flower')
+	let ff = document.querySelectorAll('.ff')
+	let tt = document.querySelectorAll(".tt")
+	flower [0].onclick = function(){
+		tt [0].style.display = "block";
+		flower [0].style.display = "none";
+	}
+	flower [1].onclick = function(){
+		tt [1].style.display = "block";
+		flower [1].style.display = "none";
+	}
+	flower [2].onclick = function(){
+		tt [2].style.display = "block";
+		flower [2].style.display = "none";
+	}
+	flower [3].onclick = function(){
+		tt [3].style.display = "block";
+		flower [3].style.display = "none";
+	}
+	flower [4].onclick = function(){
+		tt [4].style.display = "block";
+		flower [4].style.display = "none";
+	}
+	flower [5].onclick = function(){
+		tt [5].style.display = "block";
+		flower [5].style.display = "none";
+	}
+	flower [6].onclick = function(){
+		tt [6].style.display = "block";
+		flower [6].style.display = "none";
+	}
+	flower [7].onclick = function(){
+		tt [7].style.display = "block";
+		flower [7].style.display = "none";
+	}
+	flower [8].onclick = function(){
+		tt [8].style.display = "block";
+		flower [8].style.display = "none";
+	}
+	flower [9].onclick = function(){
+		tt [9].style.display = "block";
+		flower [9].style.display = "none";
+	}
+	let gg = 1
+	ff [0].onclick = function(){
+		tt[gg].style.height = "150px";
+		tt[gg].style.width = "150px";
+		gg = gg + 2
+	}
+	let index = document.querySelectorAll(".tt").style.height = "150px";
+	ff [1].onclick = function(){
+		tt [index].style.width = "150px";
+	}
+</script>
+</body>
+</html>
+<!--КТО РАБОТАЛ В МОЁМ HTML-->
